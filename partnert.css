@@ -1,0 +1,114 @@
+*{
+    font-family: 'Roboto', sans-serif;
+}
+body{
+    margin: 0px;
+    padding: 0px;
+}
+
+.container{
+    padding: 50px 40px 70px 40px ;
+}
+.introBox{
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-image: url(https://geor.io/wp-content/uploads/2021/03/fondo-partner2.png);
+    background-size: cover;
+    background-position: center center;
+}
+
+.infoBox, .videBox{
+    width: 50%;
+    
+}
+.infoBox h1{
+    padding: 10px;
+    font-size: 3rem;
+    font-weight: 900;
+    margin: 0px;
+}
+
+.infoBox span{
+    padding: 10px;
+    font-size: 1rem;
+    letter-spacing: 4px;
+}
+
+.infoBox p{
+    padding: 10px;
+    font-size: 1rem;
+}
+
+.infoBox button {
+    position: absolute;
+    padding: 10px 20px;
+    background-color: #bd2723;
+    border: none;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-top-left-radius: 20px;
+    transition: all 1s;
+}
+
+.infoBox button a{
+    text-decoration: none;
+    color: white;
+    letter-spacing: 1px;
+    font-weight: 900;
+    
+}
+
+.infoBox button:hover{
+    padding: 15px 25px;
+    transition: all 1s;
+}
+
+/*BASE 2*/
+
+.benBox{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.benBox h2{
+    font-size: 2.5rem;
+    font-weight: 900;
+}
+.benBox h3{
+    font-size: 1.5rem;
+}
+.benBox p{
+    width: 850px;
+    font-size: 1rem;
+    text-align: center;
+}
+main{
+    display: flex;
+    justify-content: space-around;
+}
+
+article {
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+article div{
+    text-align: center;
+}
+
+ul{
+    margin: 0px;
+    padding: 0px;
+}
+ul li{
+    margin: 10px 0px 0px 0px;
+    line-height: 25px;
+    font-size: 1rem;
+    font-weight: 500;
+    color: #3f3d3d;
+}
