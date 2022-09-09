@@ -1,0 +1,66 @@
+html{
+    font-size: 62.5%;
+    box-sizing: border-box;
+}
+
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+/*Globales*/
+body{
+    font-size: 1.6rem;
+    line-height: 1.5;
+    margin: 0%;
+}
+.barra-navegacion{
+    position:fixed;
+    top: 0;
+    height: 10%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: black;
+}
+.item{
+    display: flex;
+    align-items: center;
+}
+.item:nth-child(3){
+    margin-left: auto;
+}
+.item:nth-child(2){
+    margin-left: auto;
+}
+.item:nth-child(4){
+    margin-left: 32px;
+}
+
+a{
+    color: #fff;
+    text-decoration: none;
+}
+
+.barra-lateral{
+    top: 10%;
+    position: fixed;
+    height: 100%;
+    width: 20%;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+.b-item{
+    margin:10px 0px;
+    border-bottom: 1px solid white;
+    width: 100%;
+    text-align: center;
+}
+
+.p{
+    margin-left: 22%;
+    font-size: 10px;
+}
