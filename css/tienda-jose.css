@@ -1,0 +1,141 @@
+*{
+    font-family: 'Jost', sans-serif;
+    font-size: 16px;
+}
+html{
+    font-size: 62.5%;
+    box-sizing: border-box;
+}
+
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+/*Globales*/
+body{
+    font-size: 1.6rem;
+    line-height: 1.5;
+    margin: 0%;
+}
+.menu {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    height: 100px;
+    background-color: white;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+    box-shadow: 0 0 12px rgba(0, 0, 0, 0.15);
+
+  }
+  .menu__ul {
+    list-style: none;
+    margin-bottom: 0;
+    padding-left: 0;
+    margin-top: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+
+  }
+  .menu__li {
+    margin: 0 16px;
+    position: relative;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    
+  }
+  .menu__li:hover .submenu__ul {
+    opacity: 1;
+    transform: scaleY(1);
+  }
+  .menu__a {
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 14px;
+    color: black;
+  }
+  .logo{
+    font-size: 40px;
+    font-weight: 400;
+  }
+  .submenu__ul {
+    background-color: white;
+    list-style: none;
+    padding: 6px;
+    border: 1px solid rgba(0, 0, 0, 0.15);
+    position: absolute;
+    width: 150px;
+    opacity: 0;
+    transform-origin: top left;
+    transform: scaleY(0);
+    left: 0;
+    top: 100%;
+    transition: all 0.15s linear;
+  }
+  .submenu__li {
+    padding: 4px 8px;
+  }
+  .submenu__a {
+    text-decoration: none;
+    color: black;
+    font-size: 12px;
+  }
+.menu__superior{
+    margin-left: auto;
+}
+.menu__li:nth-child(8){
+    margin-left: auto;
+}
+.contenedor{
+    margin-top: 100px;
+}
+.promotion__info{
+    text-align: center;
+    background-color: black;
+    color: #fff;
+    padding: 3px;
+}
+.banner{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    height: 500px;
+}
+.imagen__referencial{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url("https://i0.wp.com/demo4.drfuri.com/razzi/wp-content/uploads/sites/14/2020/12/home1-banner-carousels-2.jpg?resize=670%2C692&ssl=1");
+    background-size: cover; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+    .imagen__referencia2{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url("https://i0.wp.com/demo4.drfuri.com/razzi/wp-content/uploads/sites/14/2020/12/home1-banner-carousels-2.jpg?resize=670%2C692&ssl=1");
+    background-size: cover; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+    .imagen__referencia3{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url("https://i0.wp.com/demo4.drfuri.com/razzi/wp-content/uploads/sites/14/2020/12/home1-banner-carousels-2.jpg?resize=670%2C692&ssl=1");
+    background-size: cover; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+.banner__titulo{
+color: #fff;
+font-size: 50px;
+}
+.button__banner{
+    margin-top: 120px;
+    padding: 10px 15px;
+    background-color: #fff;
+}
