@@ -1,0 +1,101 @@
+.menu {
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  height: 50px;
+  background-color: white;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+  box-shadow: 0 0 12px rgba(0, 0, 0, 0.15);
+}
+.menu__ul {
+  list-style: none;
+  margin-bottom: 0;
+  padding-left: 0;
+  margin-top: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50px;
+}
+.menu__li {
+  margin: 0 16px;
+  position: relative;
+  height: 50px;
+  display: flex;
+  align-items: center;
+}
+.menu__li:hover .submenu__ul {
+  opacity: 1;
+  transform: scaleY(1);
+}
+.menu__a {
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 14px;
+  color: black;
+}
+.submenu__ul {
+  background-color: rgba(0, 0, 0, 0.05);
+  list-style: none;
+  padding: 6px;
+  border: 1px solid rgba(0, 0, 0, 0.15);
+  position: absolute;
+  width: 150px;
+  opacity: 0;
+  transform-origin: top left;
+  transform: scaleY(0);
+  left: 0;
+  top: 100%;
+  transition: all 0.15s linear;
+}
+.submenu__li {
+  padding: 4px 8px;
+}
+.submenu__a {
+  text-decoration: none;
+  color: blue;
+  font-size: 12px;
+}
+.btn {
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-radius: 4px;
+  padding: 8px 16px;
+  text-align: center;
+  color: gray;
+  cursor: pointer;
+  transition: all 0.15s linear;
+}
+.btn:hover {
+  background-color: red;
+  color: #fff;
+}
+.box {
+  width: 100px;
+  height: 100px;
+  background-color: black;
+  transition: all 0.15s linear;
+}
+.box:hover {
+  border-radius: 50%;
+  margin-left: 50px;
+}
+
+.demo {
+  color: red;
+  background-color: red;
+  border-radius: 50px;
+}
+.menu {
+  position: fixed;
+  left: 0;
+}
+.title {
+  font-size: 24px;
+  font-weight: bold;
+  text-decoration: underline;
+  text-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+}
+.title.color-red {
+  color: red;
+}
