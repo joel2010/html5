@@ -44,4 +44,87 @@ a{
 .topbar a:hover{
     color: #FF6F61;
 }
+.menu {
+    position: sticky;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #fff;
+    border-bottom: 1px solid #f6f6f6;
 }
+.menu ul {
+    list-style: none;
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.menu-contenedor {
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 90px;
+}
+.menu li {
+    margin-left: 15px;
+    margin-right: 15px;
+}
+.menu a{
+    color: #111;
+}
+.menu a:hover{
+    color: #FF6F61;
+}
+.barra-de-desuento {
+    display: flex;
+    background-image: url("../images/bg_cam.jpg");
+    background-position: center;
+    background-repeat: none;
+    background-size: cover;
+    height: 52px;
+    color: white;
+    align-items: center;
+    justify-content: center;
+}
+.banner-principal {
+    display: flex;
+}
+.banner-principal figure{
+    width: 33.333%;
+    position: relative;
+}
+.banner-principal img{
+    width: 100%;
+}
+.banner-principal strong{
+    color: white;
+    font-size: 44px;
+    position:absolute;
+    left: 50%;
+    top: 50%;
+    transform: translateX(-50%) translateY(-50%);
+}
+.banner-principal a{
+    color: #111;
+    background-color: white;
+    position:absolute;
+    bottom: 5%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    padding: 16px 26px;
+    font-weight: 500;
+    font-size: 16px;
+}
+.banner-principal figcaption{
+    background-color: rgba(0, 0, 0, 0.2);
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    z-index: 1;
+    transition: all 0.15s linear;
+}
+.banner-principal figure:hover figcaption{
+    background-color: rgba(0, 0, 0, 0.105);
+}
+
