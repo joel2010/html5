@@ -51,6 +51,7 @@ a{
     width: 100%;
     background-color: #fff;
     border-bottom: 1px solid #f6f6f6;
+    z-index: 9;
 }
 .menu ul {
     list-style: none;
@@ -127,4 +128,85 @@ a{
 .banner-principal figure:hover figcaption{
     background-color: rgba(0, 0, 0, 0.105);
 }
+.iconos{
+    display: flex;
+    justify-content: space-between;
+    padding: 32px 0;
+    border-bottom: 1px solid rgb(226, 226, 226);
+}
+.iconos article{
+    display: flex;
+    align-items: center;
+    padding: 0;
+}
+.iconos img{
+    margin-right: 32px;
+}
+.iconos h4 {
+    margin-bottom: 8px;
+} 
 
+.colecciones-texto {
+    text-align: center;
+    margin-top: 80px;
+}
+.colecciones-texto h2{
+    font-size: 36px;
+    margin-bottom: 40px;
+}
+.colecciones-texto p:first-child{
+    font-size: 13px;
+    margin-bottom: 16px;
+}
+.colecciones-texto p:last-child{
+    font-size: 18px;
+    margin-bottom: 80px;
+}
+.colecciones-imagenes {
+    display: flex;
+    flex-wrap:wrap;
+    justify-content: space-between;
+}
+.colecciones-imagenes figure{
+    position: relative;
+}
+.colecciones-imagenes figcaption{
+    position: absolute;
+    z-index: 1;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+.colection-imagen-small {
+    color: white;
+
+}
+.colection-imagen {
+    color: #111;
+    text-align: left !important; 
+    align-items:flex-start !important;
+    padding-left: 70px;
+}
+.colecciones-imagenes span:first-of-type{
+    font-size: 28px;
+    margin-bottom: 16px;
+    text-align: center;
+    font-weight: 500;
+  
+}
+.colecciones-imagenes span:last-of-type{
+    font-size: 16px;
+}
+.colecciones-imagenes a{
+    margin-bottom: 20px;
+}
+.colecciones-imagenes i{
+    margin-left: 8px;
+}
